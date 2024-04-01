@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Movie"
+        android:textAlignment="center"
+        android:paddingBottom="50dp"
+        android:textSize="36sp"
+        />
+
+    <EditText
+        android:id="@+id/title_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Title" />
+
+    <EditText
+        android:id="@+id/studio_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Studio" />
+
+    <EditText
+        android:id="@+id/rating_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Rating" />
+
+    <TextView
+        android:id="@+id/editthumburl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Thumbnail"
+        android:textAlignment="center"
+        android:paddingBottom="25dp"
+        android:textSize="12sp"
+        />
+
+    <Button
+        android:id="@+id/btneditthumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select A Image from Device" />
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn_edit_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modify" />
+
+    <Button
+        android:id="@+id/btn_back_editscreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Movies" />
+
+</LinearLayout>

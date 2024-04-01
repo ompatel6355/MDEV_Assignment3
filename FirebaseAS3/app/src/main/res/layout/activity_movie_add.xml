@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Movie"
+        android:textAlignment="center"
+        android:paddingBottom="50dp"
+        android:textSize="36sp"
+        />
+
+    <EditText
+        android:id="@+id/title_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Title" />
+
+    <EditText
+        android:id="@+id/studio_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Studio" />
+
+    <EditText
+        android:id="@+id/rating_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Movie Rating" />
+
+    <TextView
+        android:id="@+id/thumburl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Thumbnail"
+        android:textAlignment="center"
+        android:paddingBottom="25dp"
+        android:textSize="12sp"
+        />
+
+    <Button
+        android:id="@+id/btnaddthumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select A Image from Device" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn_add_edit_movie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD/EDIT" />
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Movies" />
+
+</LinearLayout>
